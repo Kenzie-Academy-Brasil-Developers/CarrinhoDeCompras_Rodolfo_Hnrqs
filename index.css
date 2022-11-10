@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: auto;
+    background-color: beige;
+    width: 50vw;
+    padding: 10px;
+    text-align: center;
+    border: black 2px solid;
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-top: 10px;
+    border: black 2px solid;
+    padding: 30px 50px;
+    border-radius: 6px;
+}
+
+.somaValor{
+    padding: 10px;
+    border-radius: 6px;
+    text-align: justify;
+    color: black;
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: beige;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgb(84, 84, 76);
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+p{
+    color: brown;
+}
+
+div{
+    border-radius: 6px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+span{
+    text-align: center;
+}
